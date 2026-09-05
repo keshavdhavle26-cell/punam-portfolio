@@ -102,19 +102,19 @@ export const CertModal: React.FC<CertModalProps> = ({ cert, onClose }) => {
 
             {/* Action Buttons */}
             <div className="pt-4 flex flex-wrap items-center justify-between gap-4 border-t border-surface-border/60">
-              <a
-                href={cert.filePath}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent-cyan text-[#050816] font-mono font-bold text-xs tracking-wider hover:bg-[#33ECFF] transition-all shadow-cyan-glow"
-              >
-                <FileText className="w-4 h-4" />
-                <span>VIEW CERTIFICATE PDF</span>
-              </a>
+             <a
+            href={`/punam-portfolio${cert.filePath}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-accent-cyan text-[#050816] font-mono font-bold text-xs tracking-wider hover:bg-[#33ECFF] transition-all shadow-cyan-glow"
+            >
+  <FileText className="w-4 h-4" />
+  <span>VIEW CERTIFICATE PDF</span>
+</a>
 
-              {cert.verifyUrl && (
-                <a
-                 href={`/punam-portfolio${cert.filePath}`}
+             {cert.verifyUrl && (
+  <a
+    href={cert.verifyUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-accent-indigo/20 text-accent-indigo border border-accent-indigo/40 hover:bg-accent-indigo hover:text-white font-mono font-bold text-xs transition-all"
