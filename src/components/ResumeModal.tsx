@@ -49,7 +49,7 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
 
             <div className="flex items-center gap-3">
               <a
-                href="/resume/Punam_Keshav_Dhavle_Resume.pdf"
+               href="/punam-portfolio/resume/Punam_Keshav_Dhavle_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent-cyan text-[#050816] font-mono font-bold text-xs hover:bg-[#33ECFF] transition-all shadow-cyan-glow"
@@ -194,10 +194,10 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
           {/* Bottom Actions */}
           <div className="mt-6 pt-4 border-t border-surface-border/60 flex items-center justify-between">
             <span className="text-xs font-mono text-surface-muted">
-              PDF File: /resume/Punam_Keshav_Dhavle_Resume.pdf
+              PDF File: /punam-portfolio/resume/Punam_Keshav_Dhavle_Resume.pdf
             </span>
             <a
-              href="/resume/Punam_Keshav_Dhavle_Resume.pdf"
+             href="/punam-portfolio/resume/Punam_Keshav_Dhavle_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg bg-accent-cyan text-[#050816] font-mono font-bold text-xs hover:bg-[#33ECFF] transition-all shadow-cyan-glow"
