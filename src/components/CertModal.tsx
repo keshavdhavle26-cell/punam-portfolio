@@ -114,7 +114,7 @@ export const CertModal: React.FC<CertModalProps> = ({ cert, onClose }) => {
 
               {cert.verifyUrl && (
                 <a
-                  href={cert.verifyUrl}
+                 href={`/punam-portfolio${cert.filePath}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-accent-indigo/20 text-accent-indigo border border-accent-indigo/40 hover:bg-accent-indigo hover:text-white font-mono font-bold text-xs transition-all"
